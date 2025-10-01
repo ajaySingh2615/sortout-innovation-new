@@ -112,17 +112,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            <motion.div
-              className="relative aspect-[16/10]"
-              animate={{
-                y: [0, -10, 0],
-              }}
-              transition={{
-                duration: 3,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              }}
-            >
+            <motion.div className="relative aspect-[16/10]">
               {/* Multiple glowing layers for better visibility */}
               <div
                 className="absolute inset-[-60px] rounded-2xl"
