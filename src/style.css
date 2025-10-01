@@ -11,3 +11,8 @@ body,
 body {
   @apply antialiased bg-neutral-50 text-neutral-900;
 }
+
+/* Avoid native smooth scroll to let Lenis control it */
+html {
+  scroll-behavior: auto;
+}
